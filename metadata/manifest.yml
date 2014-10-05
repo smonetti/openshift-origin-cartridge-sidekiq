@@ -23,7 +23,7 @@ Scaling:
 Group-Overrides:
 - components:
   - sidekiq
-  - web_framework
+  - web_proxy
 Endpoints:
 - Private-IP-Name: MONITOR_IP
   Private-Port-Name: MONITOR_PORT
