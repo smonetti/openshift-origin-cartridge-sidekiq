@@ -4,8 +4,6 @@ Cartridge-Short-Name: SIDEKIQ
 Display-Name: Sidekiq 2.17.3
 Description: Simple, efficient background processing for Ruby.
 Version: '2.17.3'
-Versions:
-- '2.17.3'
 Cartridge-Version: 0.0.4
 Cartridge-Vendor: smonetti
 License: GPL
@@ -20,10 +18,6 @@ Provides:
 Scaling:
   Min: 1
   Max: -1
-Group-Overrides:
-- components:
-  - sidekiq
-  - web_framework
 Endpoints:
 - Private-IP-Name: MONITOR_IP
   Private-Port-Name: MONITOR_PORT
@@ -34,5 +28,3 @@ Endpoints:
   Mappings:
   - Frontend: "/sidekiq"
     Backend: "/sidekiq"
-
-Source-Url: https://github.com/smonetti/openshift-origin-cartridge-sidekiq.git
