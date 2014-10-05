@@ -17,6 +17,13 @@ Website: http://mperham.github.io/sidekiq
 Provides:
 - sidekiq-2.17.3
 - sidekiq
+Scaling:
+  Min: 1
+  Max: -1
+Group-Overrides:
+- components:
+  - sidekiq
+  - web_proxy
 Endpoints:
 - Private-IP-Name: MONITOR_IP
   Private-Port-Name: MONITOR_PORT
