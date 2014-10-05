@@ -28,3 +28,5 @@ Endpoints:
   Mappings:
   - Frontend: "/sidekiq"
     Backend: "/sidekiq"
+    
+Source-Url: https://github.com/smonetti/openshift-origin-cartridge-sidekiq.git
